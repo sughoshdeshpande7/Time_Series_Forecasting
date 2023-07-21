@@ -20,11 +20,11 @@
   
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
-
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
-![alt text](https://github.com/PlayingNumbers/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+ 
+![alt text](https://github.com/sughoshdeshpande7/Time_Series_Forecasting/blob/c7df1b028ac27f841cd4005f449a1da8611b2299/Microsoft_Stock_Trend_Prediction/images/closing%20prices.png)
+![alt text](https://github.com/sughoshdeshpande7/Time_Series_Forecasting/blob/c7df1b028ac27f841cd4005f449a1da8611b2299/Microsoft_Stock_Trend_Prediction/images/100%20days%20moving%20average.png))
+![alt text](https://github.com/sughoshdeshpande7/Time_Series_Forecasting/blob/c7df1b028ac27f841cd4005f449a1da8611b2299/Microsoft_Stock_Trend_Prediction/images/200%20days%20moving%20average.png)
+![alt text](https://github.com/sughoshdeshpande7/Time_Series_Forecasting/blob/c7df1b028ac27f841cd4005f449a1da8611b2299/Microsoft_Stock_Trend_Prediction/images/final%20predictions.png)
 
 
 ## Model Building 
