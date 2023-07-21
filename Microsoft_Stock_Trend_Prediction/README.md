@@ -59,3 +59,5 @@ R-squared (R²) | 0.9185184115873659
 - approximately 92% of the variance in the prices can be explained by the model.
 
 Overall, these metrics suggest that the model is performing reasonably well in predicting prices. The R-squared value of 0.92 indicates a good fit of the model to the data, and the low RMSE and MAE values indicate that the model's predictions are relatively close to the actual prices on average.
+
+The Final Trained microsoft stock price predictor model can be downloaded from `stock_predictor_model.h5`
