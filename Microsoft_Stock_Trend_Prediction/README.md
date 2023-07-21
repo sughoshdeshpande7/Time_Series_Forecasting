@@ -1,13 +1,17 @@
-# Microsoft Stock Trend Prediction: Deep Learning Project Overview 
+# Microsoft Stock Trend Prediction: Deep Learning Project Overview
+![Top Language](https://img.shields.io/github/languages/top/sughoshdeshpande7/Time_Series_Forecasting?color=purple)
+[![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-MSFT%20Prices-informational?logo=yahoo)](https://finance.yahoo.com/quote/MSFT)
 * Built a model to predict the stock prices of Microsoft Corporation.
 * Trained the model on data for 10 years from 19/07/2013 to 19/07/2023 based on the NASDAQ historical data from yahoo finance.
 * Performed Time Series Analysis on the closing stock prices per day as a target variable.  
 * Used LSTM RNN layers to build the model . 
 
 ## Code and Resources Used 
-![Python Version](https://img.shields.io/badge/Python-3.11.3-blue.svg) [![Numpy Version](https://img.shields.io/badge/Numpy-1.24.3-darkgreen.svg)](https://numpy.org/doc/stable/release/1.24.3-notes.html)
-[![Pandas Version](https://img.shields.io/badge/Pandas-1.5.3-E77200.svg)](https://pandas.pydata.org/pandas-docs/stable/whatsnew/v1.5.3.html) <br>
-**Packages:** pandas, numpy, sklearn, matplotlib, tensorflow, keras <br>
+![Python Badge](https://img.shields.io/badge/Python-3.11.3-black?logo=python)
+![NumPy Badge](https://img.shields.io/badge/NumPy-1.24.3-darkgreen?logo=numpy)
+![Pandas Badge](https://img.shields.io/badge/Pandas-1.5.3-E77200?logo=pandas) <br>
+![Libraries Badge](https://img.shields.io/badge/Libraries-NumPy|Pandas|Matplotlib|Sklearn|tensorflow|keras-brown?logo=python) <br>
+
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 **Dataset:**  Download the entire dataset from `MSFT.csv`
 
