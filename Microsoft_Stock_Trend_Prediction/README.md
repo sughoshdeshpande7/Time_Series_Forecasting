@@ -1,10 +1,11 @@
 # Microsoft Stock Trend Prediction: Deep Learning Project Overview
 ![Top Language](https://img.shields.io/github/languages/top/sughoshdeshpande7/Time_Series_Forecasting?color=purple)
 [![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-MSFT%20Prices-informational?logo=yahoo)](https://finance.yahoo.com/quote/MSFT)
-* Built a model to predict the stock prices of Microsoft Corporation.
-* Trained the model on data for 10 years from 19/07/2013 to 19/07/2023 based on the NASDAQ historical data from yahoo finance.
+* Built a model to predict the stock trend prices for any stock.
+* Trained the model on data for 13 years from 21/07/2010 to 21/07/2023 based on the historical data from yahoo finance.
 * Performed Time Series Analysis on the closing stock prices per day as a target variable.  
-* Used LSTM RNN layers to build the model . 
+* Used LSTM RNN layers to build the model.
+* Built a web app for the deployment of the model using streamlit app framework.
 
 ## Code and Resources Used 
 ![Python Badge](https://img.shields.io/badge/Python-3.11.3-black?logo=python)
@@ -17,7 +18,8 @@
 
 
 ## Data Analysis
-*	Dropped Adj Close column 
+*	Dropped Adj Close column
+*	Dropped the original row indics and replaced it with integer indices
 *	Plotted graph for closing price of stocks
 *	Calculated the moving average (unweighted mean) of stocks for 100 and 200 days using the pandas rolling function
 *	Visualized the trend chart of the moving averages
