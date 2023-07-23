@@ -25,9 +25,13 @@
 *	Visualized the trend chart of the moving averages
 
   
-## EDA
+## Deployed Model
+The Final Trained stock price predictor model's  code can be downloaded from `application.py` <br>
+
+🔴 Data from 21st July 2010 to 21st July 2023 <br>
 
 [streamlit-application.webm](https://github.com/sughoshdeshpande7/Time_Series_Forecasting/assets/75742228/43a95cf3-d254-44ae-9975-e8900ead8c8f)
+
 
 ## Model Building 
 
@@ -50,16 +54,16 @@ LSTM was used to build the model because:
 
 Metrics       | Value
 ------------- | -------------
-Mean Squared Error (MSE) | 121.61146822351022
-Root Mean Squared Error (RMSE) | 11.027758984649157
-Mean Absolute Error (MAE) | 8.785182568524617
-R-squared (R²) | 0.9185184115873659
+Mean Squared Error (MSE) | 16.15468884625719
+Root Mean Squared Error (RMSE) | 4.019289594724071
+Mean Absolute Error (MAE) | 3.4042120123112283
+R-squared (R²) | 0.9165813291619156
 
-- on average, the squared difference between the predicted and actual prices is 121.61
-- on average, the absolute difference between the predicted and actual prices is approximately 11.03
-- on average, the absolute difference between the predicted and actual prices is approximately 8.79
-- approximately 92% of the variance in the prices can be explained by the model.
+- on average, the squared difference between the predicted and actual prices is 16.15
+- on average, the absolute difference between the predicted and actual prices is approximately 4.01
+- on average, the absolute difference between the predicted and actual prices is approximately 3.4
+- approximately 91% of the variance in the prices can be explained by the model.
 
-Overall, these metrics suggest that the model is performing reasonably well in predicting prices. The R-squared value of 0.92 indicates a good fit of the model to the data, and the low RMSE and MAE values indicate that the model's predictions are relatively close to the actual prices on average.
+Overall, these metrics suggest that the model is performing reasonably well in predicting prices. The R-squared value of 0.91 indicates a good fit of the model to the data, and the low RMSE and MAE values indicate that the model's predictions are relatively close to the actual prices on average.
 
-The Final Trained microsoft stock price predictor model can be downloaded from `stock_predictor_model.h5`
+The Final Trained microsoft stock price predictor model can be downloaded from `Trained_model.h5`
