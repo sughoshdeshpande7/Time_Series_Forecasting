@@ -1,5 +1,5 @@
 # Microsoft Stock Trend Prediction: Deep Learning Project Overview
-![Top Language](https://img.shields.io/github/languages/top/sughoshdeshpande7/Time_Series_Forecasting?color=purple)
+![Deep Learning Project](https://img.shields.io/badge/Project-Deep%20Learning-blueviolet?logo=python)
 [![Yahoo Finance](https://img.shields.io/badge/Yahoo%20Finance-MSFT%20Prices-informational?logo=yahoo)](https://finance.yahoo.com/quote/MSFT)
 * Built a model to predict the stock trend prices for Microsoft Corporation.
 * Trained the model on data for 10 years from 19/07/2013 to 19/07/2023 based on the historical data from yahoo finance.
